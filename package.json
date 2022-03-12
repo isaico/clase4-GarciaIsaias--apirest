@@ -1,0 +1,22 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "api rest ",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect ./server1.js",
+    "api": "nodemon --inspect ./src/apiRest.js",
+    "server": "nodemon --inspect ./src/server2.js"
+  },
+  "author": "isaias garcia",
+  "license": "ISC"
+}
